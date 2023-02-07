@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T11:58:49.334Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3qfkcMzyK6PfPXFTG0vU" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T12:12:43.151Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SDIHh-c7mKFcD8LDqqQC" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="880" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="7a84cebc1def654-1" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;perimeter=ellipsePerimeter;outline=standard;symbol=general;" parent="1" vertex="1">
           <mxGeometry x="27.5" y="15" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7a84cebc1def654-2" value="Task" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="7a84cebc1def654-2" value="compute&lt;br&gt;mean, median, range" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="205" y="43.75" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7a84cebc1def654-3" value="Task" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
@@ -29,10 +29,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-1" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry y="95" width="105" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-6" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-1" target="7a84cebc1def654-2">
+        <mxCell id="xcf2dydyv8335VmhDi4d-6" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-9" target="7a84cebc1def654-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="400" y="460" as="sourcePoint" />
             <mxPoint x="560" y="460" as="targetPoint" />
@@ -42,7 +39,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-7" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="xcf2dydyv8335VmhDi4d-7" value="mean, median, range&lt;br&gt;(range=max-min)" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="432.5" y="110" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-8" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7a84cebc1def654-2" target="xcf2dydyv8335VmhDi4d-7">
@@ -54,6 +51,9 @@
               <mxPoint x="413" y="135" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-9" value="dataset" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="40" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
