@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T23:36:54.689Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="EdWYyyY4Wrndgr2wC1Yp" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T23:39:43.590Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="CiR84vzxke8Kte2fN9Ma" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -209,6 +209,9 @@
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-42" value="the 100% percentile is not possible" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry y="1573" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-43" value="addition rule in probabilities:&lt;br&gt;add the probs, subtract the overlap." style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="280" y="880" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
