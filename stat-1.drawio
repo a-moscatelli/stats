@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T12:38:03.262Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qLkILH6M63U9XcRbyPDG" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T12:38:39.910Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jamIPFD4SPPPMVEgacGk" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
         <mxCell id="xcf2dydyv8335VmhDi4d-15" value="stddev&lt;br&gt;S or sigma&lt;br&gt;sqrt(sum(D2i)/(N-1))&lt;br&gt;where D2i=sqr(X&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;i&lt;/sub&gt;-mean)" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="327" width="161.25" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-16" value="mean&lt;br&gt;overline X" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="xcf2dydyv8335VmhDi4d-16" value="mean&lt;br&gt;X-bar" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="380" y="475" width="61.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-17" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="7a84cebc1def654-2" target="xcf2dydyv8335VmhDi4d-15">
