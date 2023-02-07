@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T14:27:17.406Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_sSr-85ZatJtv4VcngEv" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T14:31:53.007Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PjgkHdMc84Q5mVsoRynW" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -177,6 +177,35 @@
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-36" value="permutations:&lt;br&gt;order is important&lt;br&gt;n! ways of sorting an array.&lt;br&gt;n! / (n-3)! possible podiums. (a subset of 3 items, sorted).&lt;br&gt;combinations:&lt;br&gt;order is not important&lt;br&gt;n! / ( (n-3)! 3! ) = P that 3 certain ppl are chosen from a team of n" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry x="289" y="770" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-37" value="threshold" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="620" width="61.25" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-38" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;exitX=0;exitY=0;exitDx=23.125;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-37" target="xcf2dydyv8335VmhDi4d-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="55" y="431.2590880102041" as="sourcePoint" />
+            <mxPoint x="230" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="72" y="431.2590880102041" />
+              <mxPoint x="148" y="533.1482780612245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-39" value="extract&lt;br&gt;% rank" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="644.0032780612245" width="70" height="65.67" as="geometry" />
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-40" value="% rank = &lt;br&gt;(count(vals &amp;lt; thr) + 0.5) /&lt;br&gt;count(all vals)&amp;nbsp;" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="680" width="170" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-41" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-39" target="xcf2dydyv8335VmhDi4d-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="173.125" y="630" as="sourcePoint" />
+            <mxPoint x="240" y="654.0032780612246" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="82" y="441.2590880102041" />
+              <mxPoint x="158" y="543.1482780612245" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
