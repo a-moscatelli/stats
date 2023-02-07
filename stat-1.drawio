@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T12:59:38.544Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nwK3cSsQoyJLHhoEiAVa" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T13:00:04.271Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vErDDrYiO_S0oMbZaIVC" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
         <mxCell id="xcf2dydyv8335VmhDi4d-34" value="normally distributed dataset:&lt;br&gt;empirical rule:&lt;br&gt;68% of data points fall&lt;br&gt;within 1 stddev from the mean,&lt;br&gt;95% within 2&lt;br&gt;99.7% within 3" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry y="913" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-35" value="classical prob: theoretical, like the dice, the cards.&lt;br&gt;we know all outcomes and we know outcomes are equally likely. even odds.&lt;br&gt;empirical prob: historical-based, like the % of goals of a player, given his history&lt;br&gt;subjective: self-explaining. based on personal beliefs.&lt;br&gt;&lt;br&gt;whether (rain/no rain), science, medicine, sports, biz:&lt;br&gt;have weighted odds - means, it depends on the location." style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
+        <mxCell id="xcf2dydyv8335VmhDi4d-35" value="classical prob: theoretical, like the dice, the cards.&lt;br&gt;we know all outcomes and we know outcomes are equally likely. &lt;b&gt;even odds&lt;/b&gt;.&lt;br&gt;empirical prob: historical-based, like the % of goals of a player, given his history&lt;br&gt;subjective: self-explaining. based on personal beliefs.&lt;br&gt;&lt;br&gt;whether (rain/no rain), science, medicine, sports, biz:&lt;br&gt;have &lt;b&gt;weighted odds&lt;/b&gt; - means, it depends on the location." style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry x="339" y="930" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
