@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T00:04:02.076Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3LyX021U6JjJfsfQ7U7k" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T00:10:46.050Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="uCzVvGygrbKxoalH5Nul" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -218,6 +218,9 @@
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-45" value="false positive &amp;amp; false negative tests:&lt;br&gt;we usually have two events:&lt;br&gt;disease/no disease,&lt;br&gt;positive test/negative test.&lt;br&gt;P[disease]=1/10K&lt;br&gt;P[positive|disease] = 99%&lt;br&gt;P[negative|disease] = 1% = false negative = type II error&lt;br&gt;P[negative|no disease] = 2%&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;P[positive|disease] = 98% = false positive = type I error&lt;br&gt;so, if someone tests positive, what&#39;s the P of actually have the disease? BAYES.&lt;br&gt;if you test positive, the P you have the disease = 0.5%" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry x="400" y="1010" width="50" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-46" value="bayes: P(A|B) = P(B|A) * P(A) /&lt;br&gt;( sum(P(B|Aj) * P(Aj)) )&lt;br&gt;" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="541.25" y="1230" width="50" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
