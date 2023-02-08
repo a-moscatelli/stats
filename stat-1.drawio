@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T00:30:06.427Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HVSSdXdPCkbLxhXSlIxB" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T00:49:36.312Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Q3XjjB04joXflf-Tiu9X" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -222,8 +222,11 @@
         <mxCell id="xcf2dydyv8335VmhDi4d-46" value="bayes: P(A|B) = P(B|A) * P(A) /&lt;br&gt;( sum(P(B|Aj) * P(Aj)) )&lt;br&gt;" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry x="541.25" y="1230" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-47" value="given:&lt;br&gt;value=order size&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;discrete mean = sum(weighted values)&lt;br&gt;weighted value = freq * rel freq&lt;br&gt;rel freq = freq of order size / total orders" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
+        <mxCell id="xcf2dydyv8335VmhDi4d-47" value="example:&lt;br&gt;value=order size&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;discrete mean = sum(weighted values)&lt;br&gt;weighted value = freq * rel freq&lt;br&gt;rel freq = freq of order size / total orders" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry x="560" y="1337" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-48" value="binomials (binomial variables are similar to coins: only 2 values):&lt;br&gt;N potential voters, K = actual voters, p=P(a voter will vote)&lt;br&gt;total P = see binomial prob tables(n,k.p)&lt;br&gt;" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="591" y="1450" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
