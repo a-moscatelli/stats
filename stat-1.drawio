@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T02:44:19.116Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YyOi7nYwSxy7toI2B7QA" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T02:48:51.750Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="NpFO-MGnrUti--Sk49h9" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -562,7 +562,7 @@
         <mxCell id="xcf2dydyv8335VmhDi4d-104" value="average of means" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
           <mxGeometry x="1435.62" y="1148.39578125" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-105" value="central limit theorem" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
+        <mxCell id="xcf2dydyv8335VmhDi4d-105" value="central limit theorem:&lt;br&gt;the sample stat gets close to&lt;br&gt;the population stat if you take&lt;br&gt;more samples and/or if you take &lt;br&gt;larger samples.&lt;br&gt;(stat=mean, proportion)" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry x="1855.62" y="884.3425925925926" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-106" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;entryX=0.58;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-92" target="xcf2dydyv8335VmhDi4d-105">
