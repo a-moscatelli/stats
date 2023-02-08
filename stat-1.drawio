@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T04:11:57.196Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="__6-yw1TvserZKOEgGm6" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T04:13:01.963Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="L9aHKFJhMr62kfcFXJ8Z" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -344,7 +344,7 @@
         <mxCell id="xcf2dydyv8335VmhDi4d-68" value="population" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="1264.970625" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-69" value="sample&lt;br&gt;= population subset" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
+        <mxCell id="xcf2dydyv8335VmhDi4d-69" value="sample&lt;br&gt;= population subset&lt;br&gt;size=n" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="1346.8325" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-71" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-9" target="xcf2dydyv8335VmhDi4d-68">
@@ -354,19 +354,6 @@
             <Array as="points">
               <mxPoint x="62" y="1048.5075000000002" />
               <mxPoint x="138" y="1305.470625" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-75" value="sample size" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
-          <mxGeometry x="822.81" y="1258.165" width="80" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-76" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-69" target="xcf2dydyv8335VmhDi4d-75">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="235" y="869.9649999999999" as="sourcePoint" />
-            <mxPoint x="399.05999999999995" y="1158" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="712" y="1409.3325" />
-              <mxPoint x="788" y="1287.165" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -423,7 +410,7 @@
         <mxCell id="xcf2dydyv8335VmhDi4d-84" value="take many samples of n items&lt;br&gt;-&lt;br&gt;sampling&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(via selection process)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;best: random&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(independence, no bias)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;methods other than random:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;systematic s. - opportunity s.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;stratified s. - cluster s." style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;isLoopMultiParallel=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="1320" width="170" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-85" value="samples&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;= population subsets.&lt;br&gt;SRS, AKA&lt;br&gt;simple-random-sample" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;bpmnTransferType=none;isCollection=1;" vertex="1" parent="1">
+        <mxCell id="xcf2dydyv8335VmhDi4d-85" value="samples&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;= population subsets.&lt;br&gt;SRS, AKA&lt;br&gt;simple-random-sample&lt;br&gt;size of every sample=n" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;bpmnTransferType=none;isCollection=1;" vertex="1" parent="1">
           <mxGeometry x="615" y="925.555" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-86" value="extract the &lt;br&gt;sampling proportions&lt;br&gt;eg 77%" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;isLoopMultiParallel=1;" vertex="1" parent="1">
@@ -448,7 +435,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-94" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-75" target="xcf2dydyv8335VmhDi4d-90">
+        <mxCell id="xcf2dydyv8335VmhDi4d-94" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-69" target="xcf2dydyv8335VmhDi4d-90">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1323.75" y="997.8471875" as="sourcePoint" />
             <mxPoint x="1428.75" y="997.8471875" as="targetPoint" />
