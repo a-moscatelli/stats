@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T01:26:38.320Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VuIh__rfYnoNBdIfJrhF" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T01:27:24.433Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="QEKg-gz5Pt94eM9-zT4N" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -286,11 +286,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-60" value="normal distrib table:&lt;br&gt;P(x &amp;lt; z-score)" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
+        <mxCell id="xcf2dydyv8335VmhDi4d-60" value="normal distrib table&lt;br&gt;AKA&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Z-scores tables:&lt;br&gt;P(x &amp;lt; z-score)" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
           <mxGeometry x="795.625" y="862.5" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-61" value="distrib table lookup&lt;br&gt;AKA&lt;br&gt;Z-transformation&lt;br&gt;AKA&lt;br&gt;Z-scores tables" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="790" width="110" height="85.5" as="geometry" />
+        <mxCell id="xcf2dydyv8335VmhDi4d-61" value="distrib table lookup&lt;br&gt;AKA&lt;br&gt;Z-transformation" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="790" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-62" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-26" target="xcf2dydyv8335VmhDi4d-61">
           <mxGeometry width="160" relative="1" as="geometry">
