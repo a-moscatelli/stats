@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T00:54:02.807Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="cHAPMrQi1GQFcCjmmDRw" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T00:55:55.862Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Kxdti5zekVLTXcMipNYn" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -167,16 +167,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-33" value="normally distributed dataset" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
-          <mxGeometry x="7.5" y="1062" width="40" height="60" as="geometry" />
+          <mxGeometry x="7.5" y="1247" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-34" value="normally distributed dataset:&lt;br&gt;empirical rule:&lt;br&gt;68% of data points fall&lt;br&gt;within 1 stddev from the mean,&lt;br&gt;95% within 2&lt;br&gt;99.7% within 3" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry y="1232" width="50" height="100" as="geometry" />
+          <mxGeometry y="1417" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-35" value="classical prob: theoretical, like the dice, the cards.&lt;br&gt;we know all outcomes and we know outcomes are equally likely. &lt;b&gt;even odds&lt;/b&gt;.&lt;br&gt;empirical prob: historical-based, like the % of goals of a player, given his history&lt;br&gt;subjective: self-explaining. based on personal beliefs.&lt;br&gt;&lt;br&gt;whether (rain/no rain: depending on the location, can be 20/80, or 30/70), science, medicine, sports, biz:&lt;br&gt;have &lt;b&gt;weighted odds.&lt;/b&gt;&lt;br&gt;&lt;br&gt;but, the sum of the likelihood of all outcomes must always be 100%" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry y="1407" width="50" height="100" as="geometry" />
+          <mxGeometry y="1592" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-36" value="permutations:&lt;br&gt;order is important&lt;br&gt;n! ways of sorting an array.&lt;br&gt;n! / (n-3)! possible podiums. (a subset of 3 items, sorted).&lt;br&gt;combinations:&lt;br&gt;order is not important&lt;br&gt;n! / ( (n-3)! 3! ) = P that 3 certain ppl are chosen from a team of n" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry y="1582.5" width="50" height="100" as="geometry" />
+          <mxGeometry y="1767.5" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-37" value="threshold" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry y="757.5" width="61.25" height="39" as="geometry" />
@@ -208,25 +208,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-42" value="the 100% percentile is not possible" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry y="1743" width="50" height="100" as="geometry" />
+          <mxGeometry y="1928" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-43" value="addition rule in probabilities:&lt;br&gt;add the probs, subtract the overlap.&lt;br&gt;on independent events:&lt;br&gt;the combo P is the multiplication of the individual Ps.&lt;br&gt;(just use prob trees)" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry y="1903" width="50" height="100" as="geometry" />
+          <mxGeometry y="2088" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-44" value="conditional probability:&lt;br&gt;P[ X and Y are chosen among 6 in one draw] = 1/6+1/6&lt;br&gt;P[ X and Y are chosen among 6 after two single draws&lt;br&gt;AFTER Z was chosen in the first single draw ] = 0" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry y="2063" width="50" height="100" as="geometry" />
+          <mxGeometry y="2248" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-45" value="false positive &amp;amp; false negative tests:&lt;br&gt;we usually have two events:&lt;br&gt;disease/no disease,&lt;br&gt;positive test/negative test.&lt;br&gt;P[disease]=1/10K&lt;br&gt;P[positive|disease] = 99%&lt;br&gt;P[negative|disease] = 1% = false negative = type II error&lt;br&gt;P[negative|no disease] = 2%&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;P[positive|disease] = 98% = false positive = type I error&lt;br&gt;so, if someone tests positive, what&#39;s the P of actually have the disease? BAYES.&lt;br&gt;if you test positive, the P you have the disease = 0.5%" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry y="2232" width="50" height="140" as="geometry" />
+          <mxGeometry y="2417" width="50" height="140" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-46" value="bayes: P(A|B) = P(B|A) * P(A) /&lt;br&gt;( sum(P(B|Aj) * P(Aj)) )&lt;br&gt;" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry y="2441" width="50" height="40" as="geometry" />
+          <mxGeometry y="2626" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-47" value="example:&lt;br&gt;value=order size&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;discrete mean = sum(weighted values)&lt;br&gt;weighted value = freq * rel freq&lt;br&gt;rel freq = freq of order size / total orders" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry y="2541" width="50" height="100" as="geometry" />
+          <mxGeometry y="2726" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-48" value="binomials (binomial variables are similar to coins: only 2 values):&lt;br&gt;N potential voters, K = actual voters, p=P(a voter will vote)&lt;br&gt;total P = see binomial prob tables(n,k.p) or,&lt;br&gt;for n very big and p=50%, the normal distribution!&lt;br&gt;" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry y="2701" width="50" height="100" as="geometry" />
+          <mxGeometry y="2886" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-49" value="event&lt;br&gt;dataset" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
           <mxGeometry y="899" width="40" height="60" as="geometry" />
@@ -254,6 +254,35 @@
             <Array as="points">
               <mxPoint x="222" y="947" />
               <mxPoint x="298" y="947" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-55" value="probability density&lt;br&gt;area=1=100%" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="1069.5" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-56" value="probability distribution&lt;br&gt;min=0,max=1,&lt;br&gt;monotone" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="1062" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-57" value="integrate&lt;br&gt;(cumulate)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1091.665" width="70" height="65.67" as="geometry" />
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-58" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="xcf2dydyv8335VmhDi4d-57" source="xcf2dydyv8335VmhDi4d-55">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="853.17" as="sourcePoint" />
+            <mxPoint x="900" y="560.17" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="87" y="1124.5" />
+              <mxPoint x="163" y="1124.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcf2dydyv8335VmhDi4d-59" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-57" target="xcf2dydyv8335VmhDi4d-56">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="848.67" as="sourcePoint" />
+            <mxPoint x="832.5" y="853.17" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="257" y="1124.5" />
+              <mxPoint x="333" y="1124.5" />
             </Array>
           </mxGeometry>
         </mxCell>
