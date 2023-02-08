@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T02:26:46.545Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Vk2bfGRytWIHDaLmf-2d" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T02:42:42.931Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8VM5ZJKmL5cPO0admdwr" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -443,8 +443,8 @@
         <mxCell id="xcf2dydyv8335VmhDi4d-84" value="sampling&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(via selection process)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;best: random&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(independence, no bias)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;methods other than random:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;systematic s. - opportunity s.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;stratified s. - cluster s." style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;isLoopMultiParallel=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="1217" width="170" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-85" value="samples&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;= population subsets" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;bpmnTransferType=none;isCollection=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="943.055" width="40" height="60" as="geometry" />
+        <mxCell id="xcf2dydyv8335VmhDi4d-85" value="samples&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;= population subsets.&lt;br&gt;SRS, AKA&lt;br&gt;simple-random-sample" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;bpmnTransferType=none;isCollection=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="943.06" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-86" value="extract the &lt;br&gt;proportions&lt;br&gt;eg 77%" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;isLoopMultiParallel=1;" vertex="1" parent="1">
           <mxGeometry x="814.375" y="1059.0099999999998" width="90" height="66.66" as="geometry" />
