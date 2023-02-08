@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T01:59:27.949Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VJ8q6XNi9IVWmVteTqVr" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T02:00:21.126Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="e3EbF7NJKE0ECNZW66uc" version="20.8.17" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1120" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -449,7 +449,7 @@
         <mxCell id="xcf2dydyv8335VmhDi4d-86" value="extract the &lt;br&gt;proportions" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;isLoopMultiParallel=1;" vertex="1" parent="1">
           <mxGeometry x="814.375" y="1026.665" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xcf2dydyv8335VmhDi4d-87" value="p^ AKA p-hat&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;proportions&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(from the samples)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(normally distributed)" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;bpmnTransferType=none;isCollection=1;" vertex="1" parent="1">
+        <mxCell id="xcf2dydyv8335VmhDi4d-87" value="p^ AKA p-hat&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;proportions&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(from the samples)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(assumed normally distributed)" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;bpmnTransferType=none;isCollection=1;" vertex="1" parent="1">
           <mxGeometry x="1018.75" y="887" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xcf2dydyv8335VmhDi4d-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;labelBackgroundColor=none;fontColor=default;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="xcf2dydyv8335VmhDi4d-82" target="xcf2dydyv8335VmhDi4d-69">
